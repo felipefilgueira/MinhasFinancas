@@ -40,8 +40,7 @@ class NovoUsuarioFooterViewCell: UITableViewCell {
     
     @objc
     func tap() {
-        let tapTextView = Notification.Name("tapTextView")
-        NotificationCenter.default.post(name: tapTextView, object: nil)
+        NotificationCenter.default.post(name: .tapTextView, object: nil)
     }
 }
 
