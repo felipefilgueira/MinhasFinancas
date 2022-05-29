@@ -8,6 +8,6 @@ target 'MinhasFinancas_Example' do
   target 'MinhasFinancas_Tests' do
     inherit! :search_paths
 
-    
+  pod "SnapKit"
   end
 end

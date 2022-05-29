@@ -7,15 +7,25 @@
 //
 
 import UIKit
+import MinhasFinancas
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
+    var coordinator: MinhasFinancasCoordinator?
 
 
-    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        let navigationController = UINavigationController()
+        coordinator = MinhasFinancasCoordinator(navigationController: navigationController)
+        coordinator?.start()
+        
+        window = UIWindow()
+        window?.makeKeyAndVisible()
+        window?.rootViewController = navigationController
+        
         return true
     }
 

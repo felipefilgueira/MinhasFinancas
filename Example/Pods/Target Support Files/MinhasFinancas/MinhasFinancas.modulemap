@@ -1,0 +1,6 @@
+framework module MinhasFinancas {
+  umbrella header "MinhasFinancas-umbrella.h"
+
+  export *
+  module * { export * }
+}

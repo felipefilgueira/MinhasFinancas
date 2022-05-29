@@ -1,0 +1,27 @@
+{
+  "name": "MinhasFinancas",
+  "version": "0.1.0",
+  "summary": "A short description of MinhasFinancas.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Felipe Filgueira/MinhasFinancas",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Felipe Filgueira": "felipe.filgueira@hotmail.com"
+  },
+  "source": {
+    "git": "https://github.com/Felipe Filgueira/MinhasFinancas.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "14.1"
+  },
+  "source_files": "MinhasFinancas/Classes/**/*",
+  "dependencies": {
+    "SnapKit": [
+
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+PODS:
+  - MinhasFinancas (0.1.0):
+    - SnapKit
+  - SnapKit (4.2.0)
+
+DEPENDENCIES:
+  - MinhasFinancas (from `../`)
+  - SnapKit
+
+SPEC REPOS:
+  trunk:
+    - SnapKit
+
+EXTERNAL SOURCES:
+  MinhasFinancas:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MinhasFinancas: 3995a4886ff1f17068f1c5e3ed5e04f7d3e0d82f
+  SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
+
+PODFILE CHECKSUM: d4baa7b42ea6ee24bf7e48cd06dfac06852599ed
+
+COCOAPODS: 1.11.2
