@@ -7,11 +7,14 @@
 
 import Foundation
 import UIKit
+import FirebaseCore
 
 enum minhasFinancasPath {
     case login
     case home
-    case cadastro
+    case newUser
+    case newUserSuccess
+    case newUserError
 }
 
 public class MinhasFinancasCoordinator {
@@ -24,6 +27,7 @@ public class MinhasFinancasCoordinator {
 
 extension MinhasFinancasCoordinator: Coordinator {
     public func start() {
+        FirebaseApp.configure()
         let viewModel = LoginViewModel(coordinator: self)
         let vc = LoginViewController(viewModel: viewModel)
         navigationController.pushViewController(vc, animated: true)
@@ -37,9 +41,19 @@ extension MinhasFinancasCoordinator: Coordinator {
 //            let viewModel = HomeViewModel(coordinator: self)
 //            let vc = HomeViewController(viewModel: viewModel)
 //            navigationController.pushViewController(vc, animated: true)
+            let vc = PerguntasFrequentesViewController()
+            navigationController.pushViewController(vc, animated: true)
             print("Home")
-        case .cadastro:
-            let vc = NovoUsuarioViewController()
+        case .newUser:
+            let viewModel = NovoUsuarioViewModel(coordinator: self)
+            let vc = NovoUsuarioViewController(viewModel: viewModel)
+            navigationController.pushViewController(vc, animated: true)
+        case .newUserSuccess:
+            navigationController.popViewController(animated: true)
+            let vc = NewUserSuccessViewController()
+            navigationController.pushViewController(vc, animated: true)
+        case .newUserError:
+            let vc = NewUserErrorViewController()
             navigationController.pushViewController(vc, animated: true)
         }
     }

@@ -21,6 +21,7 @@ class LoginView: UIView {
         view.axis = .vertical
         view.spacing = 10
         view.translatesAutoresizingMaskIntoConstraints = false
+        view.backgroundColor = .red
         return view
     }()
     
@@ -142,6 +143,7 @@ extension LoginView: ViewConfiguration {
     }
     
     func setupConstraints() {
+        
         logoImage.snp.makeConstraints { make in
             make.height.width.equalTo(200)
         }

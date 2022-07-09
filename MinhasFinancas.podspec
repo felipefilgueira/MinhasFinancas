@@ -31,7 +31,8 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '14.1'
 
   s.source_files = 'MinhasFinancas/Classes/**/*'
-  
+  s.resources = 'MinhasFinancas/**/*.{storyboard,xib,xcassets,json,png}'
+
 #   s.resource_bundles = {
 #     'MinhasFinancas' => ['MinhasFinancas/Assets/*.png']
 #   }
@@ -39,4 +40,7 @@ TODO: Add long description of the pod here.
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   s.dependency 'SnapKit'
+  s.dependency 'Firebase/Core'
+  s.dependency 'Firebase/Auth'
+
 end

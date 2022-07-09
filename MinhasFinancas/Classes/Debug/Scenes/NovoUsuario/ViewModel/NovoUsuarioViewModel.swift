@@ -11,9 +11,11 @@ import Foundation
 class NovoUsuarioViewModel {
     var model: NovoUsuarioModel?
     var cellData: [NovoUsuarioSectionBuilderProtocol] = []
+    var coordinator: MinhasFinancasCoordinator?
     
-    init() {
+    init(coordinator: MinhasFinancasCoordinator) {
         model = NovoUsuarioModel()
+        self.coordinator = coordinator
     }
     
     func getCellData() {
@@ -68,9 +70,22 @@ class NovoUsuarioViewModel {
     }
     
     func enviar() {
-        print(model?.name)
-        print(model?.mail)
-        print(model?.password)
-        print(model?.phone)
+        if let name = model?.name,
+           let mail = model?.mail,
+           let password = model?.password,
+           let phone = model?.phone {
+            
+            let userFirebase = UserFirebase()
+            userFirebase.createUser(email: mail, password: password) { success in
+                if success {
+                    print("gravou")
+                    self.coordinator?.go(to: .newUserSuccess)
+                } else {
+                    print("erro ao gravar")
+                    self.coordinator?.go(to: .newUserError)
+                }
+            }
+        }
+
     }
 }

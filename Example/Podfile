@@ -1,13 +1,27 @@
 use_frameworks!
 
-platform :ios, '9.0'
+platform :ios, '14.1'
+# Add the Firebase pod for Google Analytics
+#pod 'FirebaseAnalytics'
+#pod 'FirebaseAuth'
+#pod 'FirebaseFirestore'
+#pod 'FirebaseCore'
+
 
 target 'MinhasFinancas_Example' do
   pod 'MinhasFinancas', :path => '../'
 
+  pod "SnapKit"
+
   target 'MinhasFinancas_Tests' do
     inherit! :search_paths
-
-  pod "SnapKit"
+    pod 'Nimble'
+    pod 'Quick'
+    pod 'Nimble-Snapshots'
   end
+  
+  target 'MinhasFinancas_ExampleUITests' do
+    inherit! :search_paths
+  end
+  
 end

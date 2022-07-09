@@ -19,8 +19,15 @@
     "ios": "14.1"
   },
   "source_files": "MinhasFinancas/Classes/**/*",
+  "resources": "MinhasFinancas/**/*.{storyboard,xib,xcassets,json,png}",
   "dependencies": {
     "SnapKit": [
+
+    ],
+    "Firebase/Core": [
+
+    ],
+    "Firebase/Auth": [
 
     ]
   }

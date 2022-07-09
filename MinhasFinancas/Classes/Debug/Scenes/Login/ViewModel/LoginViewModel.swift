@@ -19,7 +19,7 @@ class LoginViewModel {
     }
     
     func goToCadastro() {
-        coordinator?.go(to: .cadastro)
+        coordinator?.go(to: .newUser)
     }
 
 }

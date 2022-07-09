@@ -13,8 +13,8 @@ class NovoUsuarioViewController: UIViewController {
     var cadastroTableView: NovoUsuarioTableView?
     var viewModel: NovoUsuarioViewModel
 
-    init() {
-        viewModel = NovoUsuarioViewModel()
+    init(viewModel: NovoUsuarioViewModel) {
+        self.viewModel = viewModel
         super.init(nibName: nil, bundle: nil)
         cadastroTableView = NovoUsuarioTableView(viewModel: viewModel)
     }

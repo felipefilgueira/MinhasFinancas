@@ -13,7 +13,7 @@ class NovoUsuarioTableView: UITableView {
     var viewModel: NovoUsuarioViewModel
     
     init(viewModel: NovoUsuarioViewModel) {
-        self.viewModel = NovoUsuarioViewModel()
+        self.viewModel = viewModel
         super.init(frame: .zero, style: .plain)
         backgroundColor = .white
     }
@@ -44,9 +44,11 @@ extension NovoUsuarioTableView: UITableViewDelegate, UITableViewDataSource {
         if data.cell == NovoUsuarioViewCell.self {
             guard let cell = tableView.dequeueReusableCell(withIdentifier: data.identifier, for: indexPath)
                     as? NovoUsuarioViewCell else { return UITableViewCell() }
+            print(data.identifier)
+            print(indexPath)
             cell.textfield.tag = indexPath.row
             cell.textfield.delegate = self
-            if indexPath.row == 0 {
+            if indexPath.row == NovoUsuarioEnum.name.rawValue {
                 cell.textfield.becomeFirstResponder()
             }
             let fieldName = NovoUsuarioEnum(rawValue: indexPath.row)?.valueString() ?? ""
@@ -81,24 +83,21 @@ extension NovoUsuarioTableView: UITextFieldDelegate {
     }
     
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
-        // Try to find next responder
-//        print(textField.superview) // Test if chosen textfield has individual tag
-//        let nextField = textField.superview?.viewWithTag(textField.tag + 1) as? UITextField
-//        nextField?.resignFirstResponder()
-        if let nextField = textField.superview?.viewWithTag(textField.tag + 1) as? UITextField {
-            nextField.becomeFirstResponder()
+
+        let nextTextField = textField.tag + 1
+        let indexPath = IndexPath(row: nextTextField, section: 0)
+        if let cell = self.cellForRow(at: indexPath) as? NovoUsuarioViewCell {
+            cell.textfield.becomeFirstResponder()
         } else {
-            // Not found, so remove keyboard.
             textField.resignFirstResponder()
         }
-//        // Do not add a line break
+
         return false
     }
 }
 
 extension NovoUsuarioTableView: NovoUsuarioFooterViewCellDelegate {
     func cadastrarUsuario() {
-        print("cadastrar usuario")
         viewModel.enviar()
     }
 }

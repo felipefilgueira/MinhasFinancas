@@ -7,11 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0DC608E8A402829151983469 /* Pods_MinhasFinancas_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4759CF186E840CCE2F8F535F /* Pods_MinhasFinancas_Tests.framework */; };
+		07AA551A88C6B16434D77139 /* Pods_MinhasFinancas_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9F78B7E918D57C32C5B5E65 /* Pods_MinhasFinancas_Tests.framework */; };
+		4B8DD3FBB4B96C16C12C4167 /* Pods_MinhasFinancas_ExampleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6F1E0E7624E1B62F89EA03A /* Pods_MinhasFinancas_ExampleUITests.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
-		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
-		619F2359B980E416491E3E59 /* Pods_MinhasFinancas_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DEA32312EDDA4BD10EAD807 /* Pods_MinhasFinancas_Example.framework */; };
+		6F63998828442D90001605F8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6F63998728442D90001605F8 /* GoogleService-Info.plist */; };
+		6FAE4E3728498F0D00B002A6 /* MinhasFinancas_ExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FAE4E3628498F0D00B002A6 /* MinhasFinancas_ExampleUITests.swift */; };
+		6FAE4E3928498F0D00B002A6 /* MinhasFinancas_ExampleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FAE4E3828498F0D00B002A6 /* MinhasFinancas_ExampleUITestsLaunchTests.swift */; };
+		6FAE4E432849950100B002A6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6F63998728442D90001605F8 /* GoogleService-Info.plist */; };
+		6FAE4E4528499A7900B002A6 /* NewUserSuccessViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FAE4E3F2849911600B002A6 /* NewUserSuccessViewControllerTests.swift */; };
+		6FAE4E4928499ADD00B002A6 /* LoginViewControllerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FAE4E4828499ADD00B002A6 /* LoginViewControllerTest.swift */; };
+		9BEC03A2583324AFDA6B9ED8 /* Pods_MinhasFinancas_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFF8647EABBEBFDE6F5834B3 /* Pods_MinhasFinancas_Example.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -22,25 +28,40 @@
 			remoteGlobalIDString = 607FACCF1AFB9204008FA782;
 			remoteInfo = MinhasFinancas;
 		};
+		6FAE4E3A28498F0D00B002A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 607FACC81AFB9204008FA782 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 607FACCF1AFB9204008FA782;
+			remoteInfo = MinhasFinancas_Example;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		0726CAB2EE8292D55095033E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		4759CF186E840CCE2F8F535F /* Pods_MinhasFinancas_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MinhasFinancas_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		19C01981A72CD4FB571D927E /* Pods-MinhasFinancas_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MinhasFinancas_Example.release.xcconfig"; path = "Target Support Files/Pods-MinhasFinancas_Example/Pods-MinhasFinancas_Example.release.xcconfig"; sourceTree = "<group>"; };
+		20ABD4C6F7F73C439F2407AE /* Pods-MinhasFinancas_ExampleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MinhasFinancas_ExampleUITests.debug.xcconfig"; path = "Target Support Files/Pods-MinhasFinancas_ExampleUITests/Pods-MinhasFinancas_ExampleUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		5A6C13E7CF6CE83160216D46 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		5DEA32312EDDA4BD10EAD807 /* Pods_MinhasFinancas_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MinhasFinancas_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EAABA499655FC30DBCD88E0 /* Pods-MinhasFinancas_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MinhasFinancas_Example.debug.xcconfig"; path = "Target Support Files/Pods-MinhasFinancas_Example/Pods-MinhasFinancas_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* MinhasFinancas_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MinhasFinancas_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		607FACE51AFB9204008FA782 /* MinhasFinancas_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MinhasFinancas_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
+		6F63998728442D90001605F8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		6FAE4E3428498F0D00B002A6 /* MinhasFinancas_ExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MinhasFinancas_ExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FAE4E3628498F0D00B002A6 /* MinhasFinancas_ExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinhasFinancas_ExampleUITests.swift; sourceTree = "<group>"; };
+		6FAE4E3828498F0D00B002A6 /* MinhasFinancas_ExampleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinhasFinancas_ExampleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6FAE4E3F2849911600B002A6 /* NewUserSuccessViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewUserSuccessViewControllerTests.swift; sourceTree = "<group>"; };
+		6FAE4E4828499ADD00B002A6 /* LoginViewControllerTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewControllerTest.swift; sourceTree = "<group>"; };
 		82B5EDB6E86770F29548983F /* MinhasFinancas.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MinhasFinancas.podspec; path = ../MinhasFinancas.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		BE5DEA93D4E8376BAA6859C1 /* Pods-MinhasFinancas_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MinhasFinancas_Tests.debug.xcconfig"; path = "Target Support Files/Pods-MinhasFinancas_Tests/Pods-MinhasFinancas_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		F4EB1F5A38AE6E18B66E0B42 /* Pods-MinhasFinancas_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MinhasFinancas_Example.debug.xcconfig"; path = "Target Support Files/Pods-MinhasFinancas_Example/Pods-MinhasFinancas_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		F77A1181706F8B1025187F55 /* Pods-MinhasFinancas_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MinhasFinancas_Example.release.xcconfig"; path = "Target Support Files/Pods-MinhasFinancas_Example/Pods-MinhasFinancas_Example.release.xcconfig"; sourceTree = "<group>"; };
-		FD201B649DE2BB47C14E0E6F /* Pods-MinhasFinancas_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MinhasFinancas_Tests.release.xcconfig"; path = "Target Support Files/Pods-MinhasFinancas_Tests/Pods-MinhasFinancas_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		909F9D15BF60E88CDA2E0873 /* Pods-MinhasFinancas_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MinhasFinancas_Tests.debug.xcconfig"; path = "Target Support Files/Pods-MinhasFinancas_Tests/Pods-MinhasFinancas_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		A6F1E0E7624E1B62F89EA03A /* Pods_MinhasFinancas_ExampleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MinhasFinancas_ExampleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFF8647EABBEBFDE6F5834B3 /* Pods_MinhasFinancas_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MinhasFinancas_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9F78B7E918D57C32C5B5E65 /* Pods_MinhasFinancas_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MinhasFinancas_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC8B54A846ECA6DE483CD6F5 /* Pods-MinhasFinancas_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MinhasFinancas_Tests.release.xcconfig"; path = "Target Support Files/Pods-MinhasFinancas_Tests/Pods-MinhasFinancas_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		E162713F2567594D30E0641D /* Pods-MinhasFinancas_ExampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MinhasFinancas_ExampleUITests.release.xcconfig"; path = "Target Support Files/Pods-MinhasFinancas_ExampleUITests/Pods-MinhasFinancas_ExampleUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				619F2359B980E416491E3E59 /* Pods_MinhasFinancas_Example.framework in Frameworks */,
+				9BEC03A2583324AFDA6B9ED8 /* Pods_MinhasFinancas_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,7 +77,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0DC608E8A402829151983469 /* Pods_MinhasFinancas_Tests.framework in Frameworks */,
+				07AA551A88C6B16434D77139 /* Pods_MinhasFinancas_Tests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FAE4E3128498F0D00B002A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B8DD3FBB4B96C16C12C4167 /* Pods_MinhasFinancas_ExampleUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,10 +95,12 @@
 		484D551EC68D2AE1897E89CA /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				F4EB1F5A38AE6E18B66E0B42 /* Pods-MinhasFinancas_Example.debug.xcconfig */,
-				F77A1181706F8B1025187F55 /* Pods-MinhasFinancas_Example.release.xcconfig */,
-				BE5DEA93D4E8376BAA6859C1 /* Pods-MinhasFinancas_Tests.debug.xcconfig */,
-				FD201B649DE2BB47C14E0E6F /* Pods-MinhasFinancas_Tests.release.xcconfig */,
+				5EAABA499655FC30DBCD88E0 /* Pods-MinhasFinancas_Example.debug.xcconfig */,
+				19C01981A72CD4FB571D927E /* Pods-MinhasFinancas_Example.release.xcconfig */,
+				20ABD4C6F7F73C439F2407AE /* Pods-MinhasFinancas_ExampleUITests.debug.xcconfig */,
+				E162713F2567594D30E0641D /* Pods-MinhasFinancas_ExampleUITests.release.xcconfig */,
+				909F9D15BF60E88CDA2E0873 /* Pods-MinhasFinancas_Tests.debug.xcconfig */,
+				DC8B54A846ECA6DE483CD6F5 /* Pods-MinhasFinancas_Tests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -80,9 +111,10 @@
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
 				607FACD21AFB9204008FA782 /* Example for MinhasFinancas */,
 				607FACE81AFB9204008FA782 /* Tests */,
+				6FAE4E3528498F0D00B002A6 /* MinhasFinancas_ExampleUITests */,
 				607FACD11AFB9204008FA782 /* Products */,
 				484D551EC68D2AE1897E89CA /* Pods */,
-				779E3CF9D65FFAC640A9A4BC /* Frameworks */,
+				8BC25575FDAACCFDC7A145F8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -91,6 +123,7 @@
 			children = (
 				607FACD01AFB9204008FA782 /* MinhasFinancas_Example.app */,
 				607FACE51AFB9204008FA782 /* MinhasFinancas_Tests.xctest */,
+				6FAE4E3428498F0D00B002A6 /* MinhasFinancas_ExampleUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -109,6 +142,7 @@
 		607FACD31AFB9204008FA782 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				6F63998728442D90001605F8 /* GoogleService-Info.plist */,
 				607FACD41AFB9204008FA782 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -117,7 +151,8 @@
 		607FACE81AFB9204008FA782 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				607FACEB1AFB9204008FA782 /* Tests.swift */,
+				6FAE4E3F2849911600B002A6 /* NewUserSuccessViewControllerTests.swift */,
+				6FAE4E4828499ADD00B002A6 /* LoginViewControllerTest.swift */,
 				607FACE91AFB9204008FA782 /* Supporting Files */,
 			);
 			path = Tests;
@@ -141,11 +176,21 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
-		779E3CF9D65FFAC640A9A4BC /* Frameworks */ = {
+		6FAE4E3528498F0D00B002A6 /* MinhasFinancas_ExampleUITests */ = {
 			isa = PBXGroup;
 			children = (
-				5DEA32312EDDA4BD10EAD807 /* Pods_MinhasFinancas_Example.framework */,
-				4759CF186E840CCE2F8F535F /* Pods_MinhasFinancas_Tests.framework */,
+				6FAE4E3628498F0D00B002A6 /* MinhasFinancas_ExampleUITests.swift */,
+				6FAE4E3828498F0D00B002A6 /* MinhasFinancas_ExampleUITestsLaunchTests.swift */,
+			);
+			path = MinhasFinancas_ExampleUITests;
+			sourceTree = "<group>";
+		};
+		8BC25575FDAACCFDC7A145F8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AFF8647EABBEBFDE6F5834B3 /* Pods_MinhasFinancas_Example.framework */,
+				A6F1E0E7624E1B62F89EA03A /* Pods_MinhasFinancas_ExampleUITests.framework */,
+				C9F78B7E918D57C32C5B5E65 /* Pods_MinhasFinancas_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -157,11 +202,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "MinhasFinancas_Example" */;
 			buildPhases = (
-				BB255FE6210F2B8AFD522CBB /* [CP] Check Pods Manifest.lock */,
+				9C5E35A2782EF6E23FE404E2 /* [CP] Check Pods Manifest.lock */,
 				607FACCC1AFB9204008FA782 /* Sources */,
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
-				1D719AE68B53322B1DD8834A /* [CP] Embed Pods Frameworks */,
+				87B83B5198F142AC1AC1957D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -176,11 +221,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "MinhasFinancas_Tests" */;
 			buildPhases = (
-				3D51FCE566CD86F2BF2104A1 /* [CP] Check Pods Manifest.lock */,
+				3CBC2DB5C74A25AEB640A472 /* [CP] Check Pods Manifest.lock */,
 				607FACE11AFB9204008FA782 /* Sources */,
 				607FACE21AFB9204008FA782 /* Frameworks */,
 				607FACE31AFB9204008FA782 /* Resources */,
-				E426F7FFADC05D87C0056C22 /* [CP] Embed Pods Frameworks */,
+				6F1ABE877AD11203877B06B8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -192,13 +237,32 @@
 			productReference = 607FACE51AFB9204008FA782 /* MinhasFinancas_Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		6FAE4E3328498F0D00B002A6 /* MinhasFinancas_ExampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6FAE4E3E28498F0D00B002A6 /* Build configuration list for PBXNativeTarget "MinhasFinancas_ExampleUITests" */;
+			buildPhases = (
+				7EF65E9C8CEB618E43E5BCF6 /* [CP] Check Pods Manifest.lock */,
+				6FAE4E3028498F0D00B002A6 /* Sources */,
+				6FAE4E3128498F0D00B002A6 /* Frameworks */,
+				6FAE4E3228498F0D00B002A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6FAE4E3B28498F0D00B002A6 /* PBXTargetDependency */,
+			);
+			name = MinhasFinancas_ExampleUITests;
+			productName = MinhasFinancas_ExampleUITests;
+			productReference = 6FAE4E3428498F0D00B002A6 /* MinhasFinancas_ExampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		607FACC81AFB9204008FA782 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0830;
+				LastSwiftUpdateCheck = 1310;
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
@@ -209,6 +273,12 @@
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
 						LastSwiftMigration = 0900;
+						TestTargetID = 607FACCF1AFB9204008FA782;
+					};
+					6FAE4E3328498F0D00B002A6 = {
+						CreatedOnToolsVersion = 13.1;
+						DevelopmentTeam = HU3H4VPLSJ;
+						ProvisioningStyle = Automatic;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
 				};
@@ -229,6 +299,7 @@
 			targets = (
 				607FACCF1AFB9204008FA782 /* MinhasFinancas_Example */,
 				607FACE41AFB9204008FA782 /* MinhasFinancas_Tests */,
+				6FAE4E3328498F0D00B002A6 /* MinhasFinancas_ExampleUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -239,10 +310,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
+				6F63998828442D90001605F8 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		607FACE31AFB9204008FA782 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FAE4E432849950100B002A6 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FAE4E3228498F0D00B002A6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -252,27 +332,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		1D719AE68B53322B1DD8834A /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MinhasFinancas_Example/Pods-MinhasFinancas_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/MinhasFinancas/MinhasFinancas.framework",
-				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MinhasFinancas.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MinhasFinancas_Example/Pods-MinhasFinancas_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		3D51FCE566CD86F2BF2104A1 /* [CP] Check Pods Manifest.lock */ = {
+		3CBC2DB5C74A25AEB640A472 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -294,7 +354,93 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		BB255FE6210F2B8AFD522CBB /* [CP] Check Pods Manifest.lock */ = {
+		6F1ABE877AD11203877B06B8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MinhasFinancas_Tests/Pods-MinhasFinancas_Tests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Nimble/Nimble.framework",
+				"${BUILT_PRODUCTS_DIR}/Nimble-Snapshots/Nimble_Snapshots.framework",
+				"${BUILT_PRODUCTS_DIR}/Quick/Quick.framework",
+				"${BUILT_PRODUCTS_DIR}/iOSSnapshotTestCase/FBSnapshotTestCase.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Nimble.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Nimble_Snapshots.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Quick.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSnapshotTestCase.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MinhasFinancas_Tests/Pods-MinhasFinancas_Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7EF65E9C8CEB618E43E5BCF6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MinhasFinancas_ExampleUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		87B83B5198F142AC1AC1957D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MinhasFinancas_Example/Pods-MinhasFinancas_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/FirebaseAuth/FirebaseAuth.framework",
+				"${BUILT_PRODUCTS_DIR}/FirebaseCore/FirebaseCore.framework",
+				"${BUILT_PRODUCTS_DIR}/FirebaseCoreDiagnostics/FirebaseCoreDiagnostics.framework",
+				"${BUILT_PRODUCTS_DIR}/FirebaseCoreInternal/FirebaseCoreInternal.framework",
+				"${BUILT_PRODUCTS_DIR}/FirebaseInstallations/FirebaseInstallations.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleDataTransport/GoogleDataTransport.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/MinhasFinancas/MinhasFinancas.framework",
+				"${BUILT_PRODUCTS_DIR}/PromisesObjC/FBLPromises.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FirebaseAuth.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FirebaseCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FirebaseCoreDiagnostics.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FirebaseCoreInternal.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FirebaseInstallations.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleDataTransport.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MinhasFinancas.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBLPromises.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MinhasFinancas_Example/Pods-MinhasFinancas_Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9C5E35A2782EF6E23FE404E2 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -316,24 +462,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		E426F7FFADC05D87C0056C22 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MinhasFinancas_Tests/Pods-MinhasFinancas_Tests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MinhasFinancas_Tests/Pods-MinhasFinancas_Tests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -349,7 +477,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACEC1AFB9204008FA782 /* Tests.swift in Sources */,
+				6FAE4E4928499ADD00B002A6 /* LoginViewControllerTest.swift in Sources */,
+				6FAE4E4528499A7900B002A6 /* NewUserSuccessViewControllerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FAE4E3028498F0D00B002A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FAE4E3928498F0D00B002A6 /* MinhasFinancas_ExampleUITestsLaunchTests.swift in Sources */,
+				6FAE4E3728498F0D00B002A6 /* MinhasFinancas_ExampleUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -360,6 +498,11 @@
 			isa = PBXTargetDependency;
 			target = 607FACCF1AFB9204008FA782 /* MinhasFinancas_Example */;
 			targetProxy = 607FACE61AFB9204008FA782 /* PBXContainerItemProxy */;
+		};
+		6FAE4E3B28498F0D00B002A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 607FACCF1AFB9204008FA782 /* MinhasFinancas_Example */;
+			targetProxy = 6FAE4E3A28498F0D00B002A6 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -465,7 +608,7 @@
 		};
 		607FACF01AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F4EB1F5A38AE6E18B66E0B42 /* Pods-MinhasFinancas_Example.debug.xcconfig */;
+			baseConfigurationReference = 5EAABA499655FC30DBCD88E0 /* Pods-MinhasFinancas_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MinhasFinancas/Info.plist;
@@ -480,7 +623,7 @@
 		};
 		607FACF11AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F77A1181706F8B1025187F55 /* Pods-MinhasFinancas_Example.release.xcconfig */;
+			baseConfigurationReference = 19C01981A72CD4FB571D927E /* Pods-MinhasFinancas_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MinhasFinancas/Info.plist;
@@ -495,7 +638,7 @@
 		};
 		607FACF31AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BE5DEA93D4E8376BAA6859C1 /* Pods-MinhasFinancas_Tests.debug.xcconfig */;
+			baseConfigurationReference = 909F9D15BF60E88CDA2E0873 /* Pods-MinhasFinancas_Tests.debug.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
@@ -517,7 +660,7 @@
 		};
 		607FACF41AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FD201B649DE2BB47C14E0E6F /* Pods-MinhasFinancas_Tests.release.xcconfig */;
+			baseConfigurationReference = DC8B54A846ECA6DE483CD6F5 /* Pods-MinhasFinancas_Tests.release.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
@@ -530,6 +673,71 @@
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 5.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MinhasFinancas_Example.app/MinhasFinancas_Example";
+			};
+			name = Release;
+		};
+		6FAE4E3C28498F0D00B002A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20ABD4C6F7F73C439F2407AE /* Pods-MinhasFinancas_ExampleUITests.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = HU3H4VPLSJ;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.filgueira.felipe.MinhasFinancas-ExampleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MinhasFinancas_Example;
+			};
+			name = Debug;
+		};
+		6FAE4E3D28498F0D00B002A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E162713F2567594D30E0641D /* Pods-MinhasFinancas_ExampleUITests.release.xcconfig */;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HU3H4VPLSJ;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MARKETING_VERSION = 1.0;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.filgueira.felipe.MinhasFinancas-ExampleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MinhasFinancas_Example;
 			};
 			name = Release;
 		};
@@ -559,6 +767,15 @@
 			buildConfigurations = (
 				607FACF31AFB9204008FA782 /* Debug */,
 				607FACF41AFB9204008FA782 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6FAE4E3E28498F0D00B002A6 /* Build configuration list for PBXNativeTarget "MinhasFinancas_ExampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6FAE4E3C28498F0D00B002A6 /* Debug */,
+				6FAE4E3D28498F0D00B002A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

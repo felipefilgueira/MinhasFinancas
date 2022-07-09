@@ -40,8 +40,27 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      language = ""
-      shouldUseLaunchSchemeArgsEnv = "YES">
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      codeCoverageEnabled = "YES"
+      onlyGenerateCoverageForSpecifiedTargets = "YES">
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "607FACCF1AFB9204008FA782"
+            BuildableName = "MinhasFinancas_Example.app"
+            BlueprintName = "MinhasFinancas_Example"
+            ReferencedContainer = "container:MinhasFinancas.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
+      <CodeCoverageTargets>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "5622E7003321F3AC35417C8815C2B3F5"
+            BuildableName = "MinhasFinancas.framework"
+            BlueprintName = "MinhasFinancas"
+            ReferencedContainer = "container:Pods/Pods.xcodeproj">
+         </BuildableReference>
+      </CodeCoverageTargets>
       <Testables>
          <TestableReference
             skipped = "NO">
@@ -53,24 +72,22 @@
                ReferencedContainer = "container:MinhasFinancas.xcodeproj">
             </BuildableReference>
          </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "6FAE4E3328498F0D00B002A6"
+               BuildableName = "MinhasFinancas_ExampleUITests.xctest"
+               BlueprintName = "MinhasFinancas_ExampleUITests"
+               ReferencedContainer = "container:MinhasFinancas.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "607FACCF1AFB9204008FA782"
-            BuildableName = "MinhasFinancas_Example.app"
-            BlueprintName = "MinhasFinancas_Example"
-            ReferencedContainer = "container:MinhasFinancas.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
-      <AdditionalOptions>
-      </AdditionalOptions>
    </TestAction>
    <LaunchAction
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      language = ""
       launchStyle = "0"
       useCustomWorkingDirectory = "NO"
       ignoresPersistentStateOnLaunch = "NO"
@@ -87,8 +104,6 @@
             ReferencedContainer = "container:MinhasFinancas.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
-      <AdditionalOptions>
-      </AdditionalOptions>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"

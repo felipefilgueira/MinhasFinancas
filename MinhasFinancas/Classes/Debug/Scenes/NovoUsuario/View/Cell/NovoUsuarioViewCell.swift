@@ -38,7 +38,6 @@ class NovoUsuarioViewCell: UITableViewCell {
 //        textfield.delegate = self
         let gesture = UITapGestureRecognizer(target: self, action: #selector(tap))
         textfield.addGestureRecognizer(gesture)
-        
         NotificationCenter.default.addObserver(self, selector: #selector(tap), name: .tapTextView, object: nil)
     }
     
