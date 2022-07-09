@@ -76,9 +76,11 @@ extension NovoUsuarioTableView: UITableViewDelegate, UITableViewDataSource {
 extension NovoUsuarioTableView: UITextFieldDelegate {
     
     func textFieldDidEndEditing(_ textField: UITextField, reason: UITextField.DidEndEditingReason) {
-        guard let value = textField.text else { return  }
+        guard let value = textField.text else { return }
         guard let item = NovoUsuarioEnum(rawValue: textField.tag) else { return  }
-        
+        if value.isEmpty {
+            showError(index: textField.tag)
+        }
         viewModel.gravarInformacao(tag: item, value: value)
     }
     
@@ -93,6 +95,13 @@ extension NovoUsuarioTableView: UITextFieldDelegate {
         }
 
         return false
+    }
+    
+    func showError(index: Int) {
+        let indexPath = IndexPath(row: index, section: 0)
+        if let cell = self.cellForRow(at: indexPath) as? NovoUsuarioViewCell {
+            cell.showErrorMessage(message: "mensagem de erro")
+        }
     }
 }
 
